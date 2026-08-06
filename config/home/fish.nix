@@ -27,6 +27,6 @@
       interactiveShellInit = ''
         zoxide init fish | source
       '';
-    }
+    };
   };
 }
