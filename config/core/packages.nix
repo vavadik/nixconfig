@@ -16,7 +16,7 @@
       systemd = {
         enable = true;
         restartIfChanged = true;
-      }
+      };
     };
   };
 }
