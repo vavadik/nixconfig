@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     nixfmt
     nodejs
+    corepack
     vim
     fastfetch
     nerd-fonts.jetbrains-mono
@@ -20,6 +21,7 @@
     slurp
     jq
     satty
+    mc
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
@@ -45,6 +47,13 @@
       plugins = {
         catWidget.enable = true;
       };
+    };
+    nix-ld = {
+      enable = true;
+      libraries = with pkgs; [
+        # Add any missing dynamic libraries for unpackaged programs
+        # here, NOT in environment.systemPackages
+      ];
     };
   };
 }
