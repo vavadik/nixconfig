@@ -6,5 +6,6 @@
     ./git.nix
     ./fish.nix
     ./ghostty.nix
+    ./niri.nix
   ];
 }

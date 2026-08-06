@@ -1,0 +1,40 @@
+window-rule {
+    match app-id="re.sonny.Junction$"
+    open-floating true
+}
+
+window-rule {
+    // Matches all games run through Steam Proton
+    match app-id=r#"^steam_app_\d+$"#
+    
+    // Replace with your exact monitor name from `niri msg outputs`
+    open-on-output "DP-2" 
+    
+    // Optional: Force games to launch fullscreen/not floating
+    open-fullscreen true
+    open-floating false
+}
+
+window-rule {
+    match app-id=r#"^com\.slack\.Slack$"#
+    match app-id=r#"^com\.github\.IsmaelMartinez\.teams_for_linux$"#
+    match app-id=r#"^org\.telegram\.desktop$"#
+    open-on-output "HDMI-A-3"
+}
+
+window-rule {
+    match app-id="^$" title="^$"
+    open-floating true
+}
+
+window-rule {
+    match app-id="^com.gabm.satty$"
+    open-floating true
+}
+
+window-rule {
+    match app-id="^com.mitchellh.ghostty$"
+    background-effect {
+        blur true
+    }
+}
