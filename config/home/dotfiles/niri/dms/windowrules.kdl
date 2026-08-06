@@ -16,8 +16,8 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"^com\.slack\.Slack$"#
-    match app-id=r#"^com\.github\.IsmaelMartinez\.teams_for_linux$"#
+    match app-id=r#"^slack$"#
+    match app-id=r#"^teams-for-linux$"#
     match app-id=r#"^org\.telegram\.desktop$"#
     open-on-output "HDMI-A-3"
 }
