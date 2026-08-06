@@ -11,9 +11,9 @@
 
   programs.git = {
     enable = true;
-    package = pkgs.gitFull;
     userName = user.fullName;
     userEmail = user.email;
+
     aliases = {
       st = "status";
       ci = "commit";
