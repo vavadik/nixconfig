@@ -11,5 +11,6 @@
     ./nvidia.nix
     ./user.nix
     ./packages.nix
+    ./gaming.nix
   ];
 }
