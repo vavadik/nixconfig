@@ -48,6 +48,7 @@
             backupFileExtension = "backup";
             extraSpecialArgs = { inherit user; };
           };
+        }
       ];
     in
     {
