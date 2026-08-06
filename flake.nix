@@ -29,18 +29,14 @@
 
       configuration = ./configuration.nix;
       hardwareConfig = ./hardware-configuration.nix;
+      core = ./config/core;
 
       modules = [
         configuration
         hardwareConfig
         home-manager.nixosModules.home-manager
+        core
         {
-          users.users.${user.name} = {
-            isNormalUser = true;
-            description = user.fullName;
-            extraGroups = [ "wheel" ];
-          };
-
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;

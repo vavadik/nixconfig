@@ -1,5 +1,7 @@
-{ pkgs, user, ... }:
+{ pkgs, ... }:
 
 {
-
+  imports = [
+    ./user.nix
+  ];
 }
