@@ -3,10 +3,6 @@
 {
   home = {
     stateVersion = "26.05";
-
-    packages = with pkgs; [
-      git
-    ];
   };
 
   programs = {
@@ -14,6 +10,7 @@
       enable = true;
       userName = user.fullName;
       userEmail = user.email;
+      package = pkgs.gitFull;
 
       aliases = {
         st = "status";
@@ -26,7 +23,11 @@
         hist = "log --graph --decorate --pretty=format:'%C(auto)%h%d %Cgreen(%ar)%Creset %C(bold blue)%an%Creset %s'";
       };
 
-      credential.helper = "libsecret";
+      settings = {
+        credential = {
+          helper = [ "libsecret" ];
+        };
+      };
     };
     git-credential-oauth = {
       enable = true;
