@@ -25,6 +25,8 @@
         dc = "diff --cached";
         hist = "log --graph --decorate --pretty=format:'%C(auto)%h%d %Cgreen(%ar)%Creset %C(bold blue)%an%Creset %s'";
       };
+
+      credential.helper = "libsecret";
     };
     git-credential-oauth = {
       enable = true;
