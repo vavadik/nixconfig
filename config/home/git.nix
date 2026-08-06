@@ -9,22 +9,25 @@
     ];
   };
 
-  programs.git = {
-    enable = true;
-    userName = user.fullName;
-    userEmail = user.email;
+  programs = {
+    git = {
+      enable = true;
+      userName = user.fullName;
+      userEmail = user.email;
 
-    aliases = {
-      st = "status";
-      ci = "commit";
-      co = "checkout";
-      br = "branch";
-      lg = "log";
-      df = "diff";
-      dc = "diff --cached";
-      hist = "log --graph --decorate --pretty=format:'%C(auto)%h%d %Cgreen(%ar)%Creset %C(bold blue)%an%Creset %s'";
+      aliases = {
+        st = "status";
+        ci = "commit";
+        co = "checkout";
+        br = "branch";
+        lg = "log";
+        df = "diff";
+        dc = "diff --cached";
+        hist = "log --graph --decorate --pretty=format:'%C(auto)%h%d %Cgreen(%ar)%Creset %C(bold blue)%an%Creset %s'";
+      };
+    };
+    git-credential-oauth = {
+      enable = true;
     };
   };
-
-  programs.git-credential-oauth.enable = true;
 }

@@ -2,6 +2,9 @@
 
 {
   imports = [
+    ./packages.nix
     ./git.nix
+    ./fish.nix
+    ./ghostty.nix
   ];
 }
