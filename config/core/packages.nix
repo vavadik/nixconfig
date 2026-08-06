@@ -2,6 +2,8 @@
 
 {
   environment.systemPackages = with pkgs; [
+    nixfmt
+    nodejs
     vim
     fastfetch
     nerd-fonts.jetbrains-mono
