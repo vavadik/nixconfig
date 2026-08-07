@@ -11,6 +11,10 @@
       claude-code
     ];
   };
+  home.file.".local/share/icons/default" = {
+    source = "${pkgs.capitaine-cursors}/share/icons/capitaine-cursors/";
+    recursive = true;
+  };
   programs = {
     direnv = {
       enable = true;

@@ -4,9 +4,12 @@
   programs = {
     steam = {
       enable = true;
-      extraPackages = with pkgs; [
-        capitaine-cursors
-      ];
+      package = pkgs.steam.override {
+        extraPkgs =
+          pkgs: with pkgs; [
+            capitaine-cursors
+          ];
+      };
     };
   };
 

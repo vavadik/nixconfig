@@ -1,4 +1,8 @@
-{ pkgs, inputs, ... }:
+{
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
   environment.systemPackages = with pkgs; [
@@ -21,6 +25,9 @@
     jq
     satty
     mc
+    gnome-tweaks
+    xsettingsd
+    xrdb
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
