@@ -7,6 +7,7 @@
     extraGroups = lib.mkForce [
       "wheel"
       "networkmanager"
+      "docker"
     ];
   };
 }

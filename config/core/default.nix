@@ -26,5 +26,6 @@
     ./user.nix
     ./packages.nix
     ./gaming.nix
+    ./docker.nix
   ];
 }
