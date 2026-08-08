@@ -28,6 +28,8 @@
     gnome-tweaks
     xsettingsd
     xrdb
+    libreoffice
+    nvd
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];

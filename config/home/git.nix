@@ -34,6 +34,9 @@
           credentialStore = "secretservice";
           helper = [ "libsecret" ];
         };
+        push.autoSetupRemote = true;
+        core.editor = "vim";
+        init.defaultBranch = "master";
       };
     };
   };
