@@ -9,6 +9,7 @@
       lsd
       zoxide
       claude-code
+      bat
     ];
   };
   home.file.".local/share/icons/default" = {

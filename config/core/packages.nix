@@ -1,13 +1,14 @@
 {
   pkgs,
   inputs,
+  user,
   ...
 }:
 
 {
   environment.systemPackages = with pkgs; [
     nixfmt
-    nodejs
+    nodejs_24
     vim
     fastfetch
     nerd-fonts.jetbrains-mono
@@ -30,6 +31,10 @@
     xrdb
     libreoffice
     nvd
+    qbittorrent
+    wl-clipboard
+    playwright
+    vlc
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
@@ -62,6 +67,15 @@
         # Add any missing dynamic libraries for unpackaged programs
         # here, NOT in environment.systemPackages
       ];
+    };
+    nh = {
+      enable = true;
+      flake = "/home/${user.name}/nixconfig#nixos";
+      clean = {
+        enable = true;
+        dates = "weekly";
+        extraArgs = "--keep 5 --keep-since 3d";
+      };
     };
   };
 }
