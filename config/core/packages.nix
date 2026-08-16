@@ -35,6 +35,7 @@
     wl-clipboard
     playwright
     vlc
+    python313
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
