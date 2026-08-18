@@ -5,6 +5,7 @@
     nvidia = {
       open = true;
       modesetting.enable = true;
+      powerManagement.enable = true;
 
       /*
         - production, new_feature, beta:

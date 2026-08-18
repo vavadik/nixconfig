@@ -10,6 +10,7 @@
       zoxide
       claude-code
       bat
+      helix
     ];
   };
   home.file.".local/share/icons/default" = {

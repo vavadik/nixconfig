@@ -36,6 +36,7 @@
     playwright
     vlc
     python313
+    imagemagick
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
