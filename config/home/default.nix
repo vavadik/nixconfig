@@ -9,4 +9,9 @@
     ./ghostty.nix
     ./niri.nix
   ];
+
+  home.sessionVariables = {
+    EDITOR = "hx";
+    VISUAL = "hx";
+  };
 }

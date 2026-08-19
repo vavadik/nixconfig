@@ -35,7 +35,7 @@
           helper = [ "libsecret" ];
         };
         push.autoSetupRemote = true;
-        core.editor = "vim";
+        core.editor = "hx";
         init.defaultBranch = "master";
       };
     };
