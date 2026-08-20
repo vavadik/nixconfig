@@ -27,6 +27,7 @@
     options = "--delete-older-than 7d";
   };
   imports = [
+    ./network.nix
     ./nvidia.nix
     ./user.nix
     ./packages.nix

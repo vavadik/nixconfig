@@ -6,7 +6,7 @@
       open = true;
       modesetting.enable = true;
       powerManagement.enable = true;
-
+      powerManagement.finegrained = false;
       /*
         - production, new_feature, beta:
           NVIDIA's official production / new feature / beta release branches.

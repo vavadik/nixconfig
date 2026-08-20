@@ -27,11 +27,14 @@
     helix = {
       enable = true;
       settings = {
-        theme = "autumn_night_transparent";
-        editor.cursor-shape = {
-          normal = "block";
-          insert = "bar";
-          select = "underline";
+        theme = "dark_plus_transparent";
+        editor = {
+          line-number = "relative";
+          cursor-shape = {
+            normal = "block";
+            insert = "bar";
+            select = "underline";
+          };
         };
       };
       languages.language = [
@@ -42,7 +45,7 @@
         }
       ];
       themes = {
-        transparent = {
+        dark_plus_transparent = {
           "inherits" = "dark_plus";
           "ui.background" = { };
         };

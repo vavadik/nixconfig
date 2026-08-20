@@ -37,9 +37,20 @@
     vlc
     python313
     imagemagick
+    p7zip
   ];
 
   imports = [ inputs.dms-plugin-registry.nixosModules.default ];
+
+  # Disable the native, broken command-not-found database
+  programs.command-not-found.enable = false;
+
+  # Enable the new nix-index database & shell integrations
+  programs.nix-index-database.comma.enable = true; # Allows using `, <command>` to run uninstalled tools
+  programs.nix-index.enable = true;
+  programs.nix-index.enableBashIntegration = true;
+  #programs.nix-index.enableZshIntegration = true;
+  programs.nix-index.enableFishIntegration = true;
 
   programs = {
     niri = {
