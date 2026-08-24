@@ -10,6 +10,7 @@
       zoxide
       claude-code
       bat
+      satisfactorymodmanager
     ];
   };
   home.file.".local/share/icons/default" = {

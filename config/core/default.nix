@@ -33,5 +33,6 @@
     ./packages.nix
     ./gaming.nix
     ./docker.nix
+    ./dms.nix
   ];
 }
