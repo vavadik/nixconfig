@@ -11,6 +11,8 @@
       claude-code
       bat
       satisfactorymodmanager
+      yt-dlp
+      stellarium
     ];
   };
   home.file.".local/share/icons/default" = {

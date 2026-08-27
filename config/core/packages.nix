@@ -50,10 +50,6 @@
   programs.nix-index.enableFishIntegration = true;
 
   programs = {
-    niri = {
-      enable = true;
-    };
-
     nix-ld = {
       enable = true;
       libraries = with pkgs; [
