@@ -32,7 +32,7 @@
         };
         credential = {
           credentialStore = "secretservice";
-          helper = [ "libsecret" ];
+          helper = "${pkgs.git-credential-manager}/bin/git-credential-manager";
         };
         push.autoSetupRemote = true;
         core.editor = "hx";
