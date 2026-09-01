@@ -61,6 +61,12 @@
       configuration = ./configuration.nix;
       hardwareConfig = ./hardware-configuration.nix;
       core = ./config/core;
+      devEnvs = import ./config/dev-envs.nix { inherit pkgs; };
+
+      flakeDevShells = nixpkgs.lib.mapAttrs' (name: cfg: {
+        name = "dev-${name}";
+        value = pkgs.mkShell { packages = cfg.packages; };
+      }) devEnvs.envs;
 
       modules = [
         # Make pkgs.unstable available everywhere
@@ -90,7 +96,7 @@
             useUserPackages = true;
             users.${user.name} = import ./config/home;
             backupFileExtension = "backup";
-            extraSpecialArgs = { inherit user inputs; };
+            extraSpecialArgs = { inherit user inputs devEnvs; };
           };
         }
 
@@ -98,9 +104,13 @@
       ];
     in
     {
+      devShells.${system} = flakeDevShells;
+
+      checks.${system} = flakeDevShells;
+
       nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
         inherit system;
-        specialArgs = { inherit user inputs; };
+        specialArgs = { inherit user inputs devEnvs flakeDevShells; };
         inherit modules;
       };
     };

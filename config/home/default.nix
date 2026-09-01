@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./dev-envs.nix
     ./packages.nix
     ./git.nix
     ./fish.nix

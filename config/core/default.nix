@@ -37,5 +37,6 @@
     ./dms.nix
     ./umbriel.nix
     ./noctalia.nix
+    ./dev-envs.nix
   ];
 }
