@@ -1,6 +1,7 @@
 {
   pkgs,
   user,
+  inputs,
   ...
 }:
 
@@ -37,6 +38,7 @@
     python313
     imagemagick
     p7zip
+    kitty
   ];
 
   # Disable the native, broken command-not-found database
@@ -50,6 +52,12 @@
   programs.nix-index.enableFishIntegration = true;
 
   programs = {
+    # Registers fish in /etc/shells and, critically, makes NixOS import
+    # /etc/set-environment (environment.variables, incl. NH_FLAKE below)
+    # into fish sessions. home-manager's programs.fish.enable alone doesn't
+    # do this -- that's why NH_FLAKE was only ever visible in bash.
+    fish.enable = true;
+
     nix-ld = {
       enable = true;
       libraries = with pkgs; [

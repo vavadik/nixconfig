@@ -17,6 +17,16 @@
       url = "github:AvengeMedia/dms-plugin-registry";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    noctalia = {
+      url = "github:noctalia-dev/noctalia";
+      inputs.nixpkgs.follows = "nixpkgs"; # this line is optional, prevents downloading two versions of nixpkgs but disables cache
+    };
+
+    umbriel = {
+      url = "github:noctalia-dev/umbriel";
+      inputs.nixpkgs.follows = "nixpkgs-unstable";
+    };
   };
 
   outputs =
@@ -80,7 +90,7 @@
             useUserPackages = true;
             users.${user.name} = import ./config/home;
             backupFileExtension = "backup";
-            extraSpecialArgs = { inherit user; };
+            extraSpecialArgs = { inherit user inputs; };
           };
         }
 

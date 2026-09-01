@@ -13,6 +13,7 @@
       systemd = {
         enable = true;
         restartIfChanged = true;
+        target = "niri.service";
       };
       # Core features
       enableSystemMonitoring = true; # System monitoring widgets (dgop)

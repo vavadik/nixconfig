@@ -35,5 +35,7 @@
     ./gaming.nix
     ./docker.nix
     ./dms.nix
+    ./umbriel.nix
+    ./noctalia.nix
   ];
 }
