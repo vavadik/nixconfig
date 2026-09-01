@@ -69,8 +69,7 @@
     # If you want to use JACK applications, uncomment this
     #jack.enable = true;
 
-    # Use the WirePlumber session manager
-    #wireplumber.enable = true;
+    # WirePlumber + device priorities: config/core/audio.nix
   };
 
   # Enable touchpad support (enabled default in most desktopManager).

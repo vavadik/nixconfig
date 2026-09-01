@@ -5,6 +5,11 @@
     heroic
   ];
 
+  services.udev.extraRules = ''
+    # DualSense touchpad - USB
+    ACTION=="add|change", ATTRS{name}=="Sony Interactive Entertainment DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+  '';
+
   programs = {
     gamescope = {
       enable = true;

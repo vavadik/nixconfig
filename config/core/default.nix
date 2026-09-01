@@ -31,6 +31,7 @@
     ./nvidia.nix
     ./user.nix
     ./packages.nix
+    ./audio.nix
     ./gaming.nix
     ./docker.nix
     ./dms.nix
