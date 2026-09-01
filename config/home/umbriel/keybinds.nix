@@ -197,5 +197,9 @@
     # equivalent and were dropped -- see report.
     "Alt+Tab" = "window-focus-next";
     "Alt+Shift+Tab" = "window-focus-previous";
+
+    # Scratchpad
+    "Mod+grave" = "scratchpad-toggle";
+    "Mod+Shift+grave" = "window-toggle-scratchpad";
   };
 }

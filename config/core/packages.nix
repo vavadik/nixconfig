@@ -25,6 +25,7 @@
     slurp
     jq
     satty
+    swappy
     mc
     gnome-tweaks
     xsettingsd
