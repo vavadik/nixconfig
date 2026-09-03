@@ -27,7 +27,7 @@
     satty
     swappy
     mc
-    gnome-tweaks
+    nautilus
     xsettingsd
     xrdb
     libreoffice
@@ -40,7 +40,23 @@
     imagemagick
     p7zip
     kitty
+    loupe
+    unstable.protonup-qt
   ];
+
+  # Default apps (Junction for links, Loupe for images). Change here, not in the UI.
+  xdg.mime.defaultApplications = {
+    "image/jpeg" = "org.gnome.Loupe.desktop";
+    "image/png" = "org.gnome.Loupe.desktop";
+    "image/gif" = "org.gnome.Loupe.desktop";
+    "image/webp" = "org.gnome.Loupe.desktop";
+    "image/bmp" = "org.gnome.Loupe.desktop";
+    "image/tiff" = "org.gnome.Loupe.desktop";
+    "image/svg+xml" = "org.gnome.Loupe.desktop";
+    "text/html" = "re.sonny.Junction.desktop";
+    "x-scheme-handler/http" = "re.sonny.Junction.desktop";
+    "x-scheme-handler/https" = "re.sonny.Junction.desktop";
+  };
 
   # Disable the native, broken command-not-found database
   programs.command-not-found.enable = false;

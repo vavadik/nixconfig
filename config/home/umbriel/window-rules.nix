@@ -41,5 +41,9 @@
       match.app_id = "^com.mitchellh.ghostty$";
       blur = true;
     }
+    {
+      match.app_id = "^dev.noctalia.UmbrielSharePicker$";
+      default_floating = true;
+    }
   ];
 }

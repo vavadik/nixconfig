@@ -45,9 +45,7 @@
     LC_TIME = "uk_UA.UTF-8";
   };
 
-  # Enable the GNOME Desktop Environment.
-  services.displayManager.gdm.enable = true;
-  services.desktopManager.gnome.enable = true;
+  # Display manager: greetd + noctalia-greeter (config/core/noctalia.nix).
 
   # Configure keymap in X11
   services.xserver.xkb = {
