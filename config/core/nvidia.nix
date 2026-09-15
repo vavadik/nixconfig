@@ -1,7 +1,6 @@
 { pkgs, config, ... }:
 {
   hardware = {
-    graphics.enable = true;
     nvidia = {
       open = true;
       modesetting.enable = true;
@@ -32,5 +31,4 @@
       branch = "new_feature";
     };
   };
-  services.xserver.videoDrivers = [ "nvidia" ];
 }

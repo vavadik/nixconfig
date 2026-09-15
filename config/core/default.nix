@@ -28,7 +28,8 @@
   };
   imports = [
     ./network.nix
-    ./nvidia.nix
+    ./graphics.nix
+    # ./nvidia.nix
     ./user.nix
     ./packages.nix
     ./audio.nix
@@ -38,5 +39,6 @@
     ./umbriel.nix
     ./noctalia.nix
     ./dev-envs.nix
+    ./appimage.nix
   ];
 }

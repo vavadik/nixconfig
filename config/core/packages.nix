@@ -5,6 +5,11 @@
   ...
 }:
 
+let
+  # Chromium Wayland color-management workaround (dim/wrong SDR gamma on HDR).
+  # Not expressible via Cursor's argv.json; bake into package wrappers instead.
+  chromiumWaylandArgs = "--disable-features=WaylandWpColorManagerV1";
+in
 {
   environment.systemPackages = with pkgs; [
     nixfmt
@@ -13,9 +18,9 @@
     fastfetch
     nerd-fonts.jetbrains-mono
     xwayland-satellite
-    google-chrome
-    microsoft-edge
-    code-cursor
+    (google-chrome.override { commandLineArgs = chromiumWaylandArgs; })
+    (microsoft-edge.override { commandLineArgs = chromiumWaylandArgs; })
+    (code-cursor.override { commandLineArgs = chromiumWaylandArgs; })
     teams-for-linux
     slack
     telegram-desktop
@@ -39,10 +44,14 @@
     python313
     imagemagick
     p7zip
-    kitty
     loupe
     unstable.protonup-qt
+    dotnet-runtime_10
   ];
+
+  environment.sessionVariables = {
+    DOTNET_ROOT = "${pkgs.dotnet-runtime_10}/share/dotnet";
+  };
 
   # Default apps (Junction for links, Loupe for images). Change here, not in the UI.
   xdg.mime.defaultApplications = {
@@ -56,6 +65,7 @@
     "text/html" = "re.sonny.Junction.desktop";
     "x-scheme-handler/http" = "re.sonny.Junction.desktop";
     "x-scheme-handler/https" = "re.sonny.Junction.desktop";
+    "inode/directory" = [ "org.gnome.Nautilus.desktop" ];
   };
 
   # Disable the native, broken command-not-found database
@@ -78,6 +88,7 @@
     nix-ld = {
       enable = true;
       libraries = with pkgs; [
+        dotnet-runtime_10
         # Add any missing dynamic libraries for unpackaged programs
         # here, NOT in environment.systemPackages
       ];

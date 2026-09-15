@@ -9,4 +9,17 @@
   ];
 
   programs.umbriel.enable = true;
+
+  programs.mangohud = {
+    enable = true;
+    settings = {
+      fps = true;
+      gpu_stats = false;
+      cpu_stats = false;
+      core_load = false;
+      font_size = 24;
+      position = "top-right";
+    };
+  };
+
 }

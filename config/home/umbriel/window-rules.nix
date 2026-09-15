@@ -11,8 +11,8 @@
       default_floating = true;
     }
     {
-      # Matches all games run through Steam Proton.
-      match.app_id = "^steam_app_\\d+$";
+      # Matches all games run through Steam Proton / gamescope.
+      match.app_id = "^steam_app_\\d+$|^gamescope$";
       # Replace with your exact monitor name from `noctalia msg status` (or
       # the `output` names in ./output.nix) if this stops matching a real
       # output.

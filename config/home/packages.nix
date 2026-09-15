@@ -9,6 +9,7 @@
       lsd
       zoxide
       claude-code
+      playwright-mcp
       bat
       satisfactorymodmanager
       yt-dlp

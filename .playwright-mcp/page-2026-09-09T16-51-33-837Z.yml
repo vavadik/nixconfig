@@ -1,0 +1,513 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Flibco" [ref=e8] [cursor=pointer]:
+        - /url: /en
+        - img "Flibco" [ref=e9]
+      - generic [ref=e10]:
+        - navigation "Navigation principale" [ref=e11]:
+          - paragraph [ref=e12]: Navigation principale
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Timetables" [ref=e15] [cursor=pointer]:
+                - /url: /en/timetable
+                - generic [ref=e16]: Timetables
+            - listitem [ref=e17]:
+              - link "Bus stops" [ref=e18] [cursor=pointer]:
+                - /url: /en/bus_stops
+                - generic [ref=e19]: Bus stops
+            - listitem [ref=e20]:
+              - link "FAQ" [ref=e21] [cursor=pointer]:
+                - /url: /en/faq
+                - generic [ref=e22]: FAQ
+            - listitem [ref=e23]:
+              - link "Contact" [ref=e24] [cursor=pointer]:
+                - /url: /en/contact
+                - generic [ref=e25]: Contact
+            - listitem [ref=e26]:
+              - link "Manage booking" [ref=e27] [cursor=pointer]:
+                - /url: /en/search-booking
+                - generic [ref=e28]: Manage booking
+        - button "" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]: 
+        - generic [ref=e35] [cursor=pointer]: 
+        - link "Login" [ref=e38] [cursor=pointer]:
+          - /url: /en/login
+          - generic [ref=e40]: Login
+      - text: 
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: Breadcrumb
+        - generic [ref=e47]: 
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "Home" [ref=e50] [cursor=pointer]:
+              - /url: /en
+              - generic [ref=e51]: Home
+          - listitem [ref=e52]:
+            - link "Shuttle Bus Antwerp - Brussels Airport Zaventem" [ref=e53] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e54]: Shuttle Bus Antwerp - Brussels Airport Zaventem
+      - generic [ref=e57]:
+        - generic [ref=e60]:
+          - heading "Shuttle Bus Antwerp - Brussels Airport Zaventem" [level=1] [ref=e63]
+          - img "Shuttle Bus Between Antwerp and Brussels Zaventem Airport" [ref=e64]
+        - generic [ref=e66]:
+          - generic [ref=e83]:
+            - checkbox "Find out more Hide Details"
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - img "Direct bus" [ref=e87]
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Direct bus
+                  - paragraph [ref=e91]: Direct shuttle bus
+              - generic [ref=e92]:
+                - img "Flexible ticket" [ref=e94]
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Flexible ticket
+                  - paragraph [ref=e98]: You can cancel and reschedule your booking up to six hours before departure, and if you miss your shuttle, you can use your ticket for the next departure without extra costs
+              - generic [ref=e99]:
+                - img "Book online" [ref=e101]
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Book online
+                  - paragraph [ref=e105]: Save money and secure your seat.
+          - generic [ref=e106]:
+            - generic [ref=e108]:
+              - heading "Shuttle Bus Antwerp - Brussels Zaventem Airport" [level=2] [ref=e110]
+              - generic [ref=e111]:
+                - paragraph [ref=e112]:
+                  - text: When it comes to travelling between
+                  - strong [ref=e113]: Antwerp
+                  - text: and
+                  - strong [ref=e114]: Brussels Zaventem Airport,
+                  - text: the smart option is to book a shuttle bus with
+                  - strong [ref=e115]: flibco.com.
+                - paragraph [ref=e116]:
+                  - text: Flibco.com offers the
+                  - strong [ref=e117]: fastest and most comfortable bus service,
+                  - text: ensuring a seamless journey between the city and the airport. With a quick travel time of
+                  - strong [ref=e118]: just 50min
+                  - text: ", our direct route eliminates any unnecessary stops along the way. Experience the convenience of purchasing your"
+                  - strong [ref=e119]: ticket online
+                  - text: ", allowing you to"
+                  - strong [ref=e120]: save money
+                  - text: and if you missed the bus you can use your ticket for the next bus at no extra cost, depending on availability. Flibco.com not only provides reliable and comfortable transportation but also offers the
+                  - strong [ref=e121]: best prices
+                  - text: ", making it the"
+                  - strong [ref=e122]: top choice for reaching Brussels Zaventem Airport.
+            - generic [ref=e124]:
+              - checkbox "FAQ"
+              - generic [ref=e125]:
+                - heading "FAQ" [level=2] [ref=e127] [cursor=pointer]
+                - generic [ref=e129]:
+                  - heading "BOOKINGS" [level=3] [ref=e131]
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - generic [ref=e134] [cursor=pointer]:
+                        - generic [ref=e135]: Is there a direct shuttle bus connection from Antwerp to Brussels Zaventem Airport?
+                        - text: 
+                      - paragraph [ref=e138]: Yes, there is a regular shuttle bus service running between the Franklin Rooseveltplaats in Antwerp and Brussels Zaventem Airport. The buses run in both directions and offer a comfortable, direct connection with reliable departure times.
+                    - generic [ref=e139]:
+                      - generic [ref=e140] [cursor=pointer]:
+                        - generic [ref=e141]: How do I get from Brussels-Zaventem airport to Antwerp?
+                        - text: 
+                      - paragraph [ref=e144]: Flibco's shuttle bus will get you to Antwerp city centre quickly and comfortably. The buses run regularly and offer comfortable seats and free wi-fi. You can easily buy tickets online or directly at the airport.
+                    - generic [ref=e145]:
+                      - generic [ref=e146] [cursor=pointer]:
+                        - generic [ref=e147]: How often do the shuttle buses run?
+                        - text: 
+                      - paragraph [ref=e150]: The Flibco shuttle buses run several times a day, approximately every 1 to 2 hours, between Brussels-Zaventem airport and Antwerp. So you can flexibly choose your departure time and plan your trip optimally.
+                    - generic [ref=e151]:
+                      - generic [ref=e152] [cursor=pointer]:
+                        - generic [ref=e153]: Do the buses run all day?
+                        - text: 
+                      - paragraph [ref=e156]: The shuttle buses do not run 24 hours a day, but they do offer several daily connections between Zaventem airport and Antwerp. The schedules are aligned with the main flight times, so you can easily arrive and depart.
+                    - generic [ref=e157]:
+                      - generic [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159]: How long does the journey take between Antwerp and Zaventem?
+                        - text: 
+                      - paragraph [ref=e162]: Travel time by shuttle bus between Brussels-Zaventem Airport and Antwerp is usually around 50 minutes, depending on traffic. This direct and comfortable connection ensures you arrive in the city centre or at the airport without stress.
+                    - generic [ref=e163]:
+                      - generic [ref=e164] [cursor=pointer]:
+                        - generic [ref=e165]: What does a bus trip from Antwerp to Zaventem airport cost?
+                        - text: 
+                      - paragraph [ref=e168]:
+                        - generic [ref=e169]:
+                          - text: The cost of a bus trip with Flibco from Brussels-Zaventem Airport to Antwerp starts from
+                          - strong [ref=e170]
+                        - strong [ref=e172]: €4,99
+                        - generic [ref=e173]:
+                          - strong [ref=e174]: per trip
+                          - text: . The exact price varies depending on the time of booking and availability, but always offers excellent value for money for a comfortable journey.
+                    - generic [ref=e175]:
+                      - generic [ref=e176] [cursor=pointer]:
+                        - generic [ref=e177]: How and where can I buy a ticket?
+                        - text: 
+                      - paragraph [ref=e180]: You can easily buy your ticket for the Flibco shuttle bus online via the official website or the mobile app. In addition, tickets are sometimes also available directly at the airport and in Antwerp. Various payment methods are available.
+                    - generic [ref=e181]:
+                      - generic [ref=e182] [cursor=pointer]:
+                        - generic [ref=e183]: Can I change my ticket?
+                        - text: 
+                      - generic [ref=e185]:
+                        - paragraph [ref=e186]: Yes, you can cancel or change your booking up to 6 hours before the scheduled departure time.
+                        - paragraph [ref=e187]:
+                          - generic [ref=e188]:
+                            - strong [ref=e189]: "For flibco.com account users:"
+                            - text: To do so, log in to your account with your email and password, go to the "Planned Trips" section and edit or cancel the relevant booking. The cost of the booking will be credited to your Flibco account, and the amount will be automatically deducted from your next booking.
+                        - paragraph [ref=e190]:
+                          - generic [ref=e191]:
+                            - strong [ref=e192]: "For guest users:"
+                            - text: go to
+                          - link "Manage Booking" [ref=e193] [cursor=pointer]:
+                            - /url: https://www.flibco.com/en/search-booking
+                          - text: and search for your booking with your ticket number and the email address used for the purchase. There you can edit or cancel your ticket and have the booking cost credited to a Flibco account or simply create an account to use your credit for your next booking.
+                    - generic [ref=e194]:
+                      - generic [ref=e195] [cursor=pointer]:
+                        - generic [ref=e196]: What happens if I miss my shuttle bus or my flight is delayed?
+                        - text: 
+                      - paragraph [ref=e199]: If you miss your departure, for example, due to a flight delay, you can take the next available bus free of charge if there are seats.
+                    - generic [ref=e200]:
+                      - generic [ref=e201] [cursor=pointer]:
+                        - generic [ref=e202]: How many pieces of luggage can I take?
+                        - text: 
+                      - generic [ref=e204]:
+                        - paragraph [ref=e205]: "You can carry as much luggage as you want. 1 hand luggage + 3 checked luggage per passenger are included in your booking for free:"
+                        - paragraph [ref=e206]:
+                          - text: "- One piece of hand luggage which the passenger keeps with him/her during the transport:"
+                          - text: "Maximum size: 35 cm x 20 cm x 20 cm"
+                          - text: "Maximum weight: 10 kg"
+                        - paragraph [ref=e207]:
+                          - text: "- Three pieces of luggage in the hold of the bus:"
+                          - text: "Maximum size: 55 cm x 85 cm x 40 cm"
+                          - text: "Maximum weight: 25 kg"
+            - generic [ref=e209]:
+              - heading "Shuttle bus journey from Antwerp to Brussels Zaventem Airport" [level=2] [ref=e211]
+              - paragraph [ref=e213]:
+                - strong [ref=e214]: Brussels Zaventem Airport
+                - text: ", located 45 kilometers southeast of"
+                - strong [ref=e215]: Antwerp
+                - text: ", is a transportation hub offering a range of amenities for travelers. To ensure a"
+                - strong [ref=e216]: hassle-free journey,
+                - text: the shuttle bus service provided by
+                - strong [ref=e217]: flibco.com
+                - text: is the best option to get to
+                - strong [ref=e218]: Brussels Zaventem Airport.
+                - text: It is
+                - strong [ref=e219]: eco-friendly, fast, reliable and affordable
+                - text: ", making it an excellent choice for travelers. Book your tickets in advance through the flibco.com website to enjoy a"
+                - strong [ref=e220]: seamless and sustainable transportation experience to and from the airport.
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - img "Your luggage included in the ticket" [ref=e224]
+              - generic [ref=e225]:
+                - generic [ref=e226]: Your luggage included in the ticket
+                - paragraph [ref=e228]: 3 checked luggage + 1 hand luggage
+            - generic [ref=e229]:
+              - img "Other connections" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Other connections
+                - generic [ref=e234]:
+                  - paragraph [ref=e235]: You might also be interested in
+                  - paragraph [ref=e236]:
+                    - link "Antwerp - Charleroi Airport" [ref=e237] [cursor=pointer]:
+                      - /url: https://www.flibco.com/en/shuttle/shuttle-bus-antwerp-charleroi-airport
+                  - paragraph [ref=e238]:
+                    - link "Tilburg - Brussels Zaventem Airport" [ref=e239] [cursor=pointer]:
+                      - /url: https://www.flibco.com/en/shuttle/shuttle-bus-tilburg-brussels-zaventem-airport
+                  - paragraph [ref=e240]:
+                    - link "Breda - Brussels Zaventem Airport" [ref=e241] [cursor=pointer]:
+                      - /url: https://www.flibco.com/en/shuttle/shuttle-bus-breda-brussels-zaventem-airport
+                  - paragraph [ref=e242]:
+                    - link "Brussels Zaventem Airport - Charleroi Airport" [ref=e243] [cursor=pointer]:
+                      - /url: https://www.flibco.com/en/shuttle/shuttle-bus-brussels-zaventem-airport-charleroi-airport
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - img "Relax with plenty of legroom"
+            - generic [ref=e249]:
+              - generic [ref=e250]: Relax with plenty of legroom
+              - generic [ref=e251]:
+                - paragraph [ref=e252]: Enjoy a comfortable ride to/from the airport.
+                - paragraph [ref=e253]: Extra room available for XXL luggage
+          - generic [ref=e254]:
+            - generic [ref=e255]:
+              - img "Enjoy a drop-off at the airport"
+            - generic [ref=e256]:
+              - generic [ref=e257]: Enjoy a drop-off at the airport
+              - paragraph [ref=e259]: Feel like a VIP
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - img "Choose to be green"
+            - generic [ref=e262]:
+              - generic [ref=e263]: Choose to be green
+              - paragraph [ref=e265]: Travelling by shuttle can reduce your CO2 emissions
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - img "Regain time for yourself"
+            - generic [ref=e268]:
+              - generic [ref=e269]: Regain time for yourself
+              - paragraph [ref=e271]: On board the bus, you can watch films, read a book, and even fine-tune your travel plans
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - img "Stay connected with on-board Wi-Fi"
+            - generic [ref=e274]:
+              - generic [ref=e275]: Stay connected with on-board Wi-Fi
+              - paragraph [ref=e277]: You can watch a film or TV series, or catch up on some work
+    - generic [ref=e280]:
+      - img "Newsletter" [ref=e282]
+      - generic [ref=e284]:
+        - paragraph [ref=e285]: Newsletter
+        - paragraph [ref=e286]: Subscribe to our monthly newsletter, to make sure you don’t miss out on any great deals and to be the first to hear our news.
+        - generic [ref=e287]:
+          - generic: Your email
+          - textbox "Your email" [ref=e288]:
+            - /placeholder: ""
+        - generic [ref=e290]:
+          - text: 
+          - paragraph [ref=e292]:
+            - text: I confirm that I have read and understood the
+            - link "Flibco Privacy Policy" [ref=e293] [cursor=pointer]:
+              - /url: https://www.flibco.com/en/legal-pages/privacy-notice
+            - text: and consent to receiving marketing communications from Flibco
+        - button "Subscribe" [disabled]
+    - generic [ref=e297]:
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - paragraph [ref=e300]: The best offers, directly to your inbox!
+          - paragraph [ref=e301]: By providing your email address, you will receive exclusive information and fantastic deals to travel smart, every month.
+          - generic [ref=e303]:
+            - textbox "Your email" [ref=e305]
+            - generic [ref=e307]:
+              - text: 
+              - paragraph [ref=e309]:
+                - text: I confirm that I have read and understood the
+                - link "Flibco Privacy Policy" [ref=e310] [cursor=pointer]:
+                  - /url: https://www.flibco.com/en/legal-pages/privacy-notice
+                - text: and consent to receiving marketing communications from Flibco
+            - button "Subscribe" [disabled]
+        - generic [ref=e311]:
+          - paragraph [ref=e312]:
+            - strong [ref=e313]: Follow us
+          - list [ref=e314]:
+            - listitem [ref=e315]:
+              - link "Facebook" [ref=e316] [cursor=pointer]:
+                - /url: https://www.facebook.com/flibcocom
+                - img "Facebook" [ref=e317]
+            - listitem [ref=e318]:
+              - link "Twitter" [ref=e319] [cursor=pointer]:
+                - /url: https://twitter.com/flibcocom
+                - img "Twitter" [ref=e320]
+            - listitem [ref=e321]:
+              - link "Youtube" [ref=e322] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3A6SFKZXfHHp9nmf-1-ojg
+                - img "Youtube" [ref=e323]
+            - listitem [ref=e324]:
+              - link "Instagram" [ref=e325] [cursor=pointer]:
+                - /url: https://www.instagram.com/flibco/
+                - img "Instagram" [ref=e326]
+            - listitem [ref=e327]:
+              - link "tiktok" [ref=e328] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@flibco.com
+                - img "tiktok" [ref=e329]
+            - listitem [ref=e330]:
+              - link "linkedin" [ref=e331] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/flibco-com
+                - img "linkedin" [ref=e332]
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - paragraph [ref=e336]:
+              - strong [ref=e337]: Flibco
+              - text: ", airport shuttle bus service."
+            - paragraph [ref=e338]:
+              - text: Economical, comfortable, and practical, the airport shuttle is the best transfer solution to
+              - link "Charleroi" [ref=e339] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/airports/charleroi "
+              - text: and
+              - link "Frankfurt Hahn Airport" [ref=e340] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/airports/hahn "
+              - generic [ref=e341]:
+                - text: . With buses between these airports and major cities in different regions, Flibco shuttles are your best ally for a smooth travel.
+                - strong [ref=e342]
+                - text: In Belgium, Flibco connects
+              - link "Brussels Zaventem Airport" [ref=e343] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/airports/brussels-airport
+              - text: with
+              - link "Lille" [ref=e344] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-lille-brussels-zaventem-airport "
+              - text: and Charleroi Airport with
+              - link "Bruges" [ref=e345] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-bruges-charleroi-airport "
+              - text: ","
+              - link "Ghent" [ref=e346] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-ghent-charleroi-airport "
+              - text: ","
+              - link "Brussels" [ref=e347] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-brussels-charleroi-airport "
+              - text: ","
+              - link "Arlon," [ref=e348] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-arlon-charleroi-airport "
+              - link "Mons" [ref=e349] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-mons-charleroi-airport "
+              - text: ","
+              - link "Lille" [ref=e350] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-lille-charleroi-airport "
+              - text: and
+              - link "Luxembourg" [ref=e351] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-luxembourg-charleroi-airport "
+              - text: . In Germany, it connects
+              - link "Frankfurt" [ref=e352] [cursor=pointer]:
+                - /url: "https://www.flibco.com/en/shuttle/bus-frankfurt-hahn-airport "
+              - text: with Hahn Airport. In Italy, Flibco connects Turin with
+              - link "Turin Caselle Airport" [ref=e353] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-turin-airport
+              - text: and
+              - link "Turin with Milan Malpensa Airport" [ref=e354] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-turin-malpensa-airport
+              - text: ", Florence with Pisa Airport, Milan with"
+              - link "Bergamo Orio al Serio Airport" [ref=e355] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-milan-bergamo-airport
+              - text: ","
+              - link "Linate Airport" [ref=e356] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-milan-linate-airport
+              - text: and
+              - link "Milan Malpensa Airport" [ref=e357] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-milan-malpensa-airport
+              - text: ", Venice with"
+              - link "Treviso Airport" [ref=e358] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/bus-venice-treviso-airport
+              - text: ", and"
+              - link "Como with Milan Malpensa Airport" [ref=e359] [cursor=pointer]:
+                - /url: https://www.flibco.com/en/shuttle/malpensa-airport-como-bus
+              - text: .
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - paragraph [ref=e362]: Flibco app
+              - paragraph [ref=e363]: Download our app to track your shuttle in real time and receive live notifications!
+            - generic [ref=e364]:
+              - link "App Store" [ref=e365] [cursor=pointer]:
+                - /url: https://apps.apple.com/lu/app/flibco-com/id1554264747
+                - img "App Store" [ref=e366]
+              - link "Google Play" [ref=e367] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.flibco.customerapp
+                - img "Google Play" [ref=e368]
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - paragraph [ref=e372]: Customer service
+            - navigation [ref=e373]:
+              - text: 
+              - list [ref=e374]:
+                - listitem [ref=e375]:
+                  - link "Contact" [ref=e376] [cursor=pointer]:
+                    - /url: /en/contact
+                    - generic [ref=e377]: Contact
+                - listitem [ref=e378]:
+                  - link "FAQ" [ref=e379] [cursor=pointer]:
+                    - /url: /en/faq
+                    - generic [ref=e380]: FAQ
+                - listitem [ref=e381]:
+                  - link "Airports" [ref=e382] [cursor=pointer]:
+                    - /url: /en/airports
+                    - generic [ref=e383]: Airports
+                - listitem [ref=e384]:
+                  - link "Our Lines" [ref=e385] [cursor=pointer]:
+                    - /url: /en/our-lines
+                    - generic [ref=e386]: Our Lines
+                - listitem [ref=e387]:
+                  - link "Bus stops" [ref=e388] [cursor=pointer]:
+                    - /url: /en/bus_stops
+                    - generic [ref=e389]: Bus stops
+                - listitem [ref=e390]:
+                  - link "Offers" [ref=e391] [cursor=pointer]:
+                    - /url: /en/offers
+                    - generic [ref=e392]: Offers
+                - listitem [ref=e393]:
+                  - link "Disability Support (UK)" [ref=e394] [cursor=pointer]:
+                    - /url: https://www.flibco.com/en/accessibility-and-inclusion-customers-our-uk-services
+                    - generic [ref=e395]: Disability Support (UK)
+          - generic [ref=e396]:
+            - paragraph [ref=e397]: About Flibco
+            - navigation [ref=e398]:
+              - text: 
+              - list [ref=e399]:
+                - listitem [ref=e400]:
+                  - link "About us" [ref=e401] [cursor=pointer]:
+                    - /url: /en/about-us
+                    - generic [ref=e402]: About us
+                - listitem [ref=e403]:
+                  - link "Press articles" [ref=e404] [cursor=pointer]:
+                    - /url: /en/they-talk-about-us
+                    - generic [ref=e405]: Press articles
+                - listitem [ref=e406]:
+                  - link "Collaborate with flibco.com" [ref=e407] [cursor=pointer]:
+                    - /url: /en/develop-your-business-joining-flibcocom-adventure
+                    - generic [ref=e408]: Collaborate with flibco.com
+                - listitem [ref=e409]:
+                  - link "Job offers" [ref=e410] [cursor=pointer]:
+                    - /url: /en/join-us
+                    - generic [ref=e411]: Job offers
+                - listitem [ref=e412]:
+                  - link "Student Beans partnership" [ref=e413] [cursor=pointer]:
+                    - /url: https://www.studentbeans.com/en-gb/uk/beansid-connect/hosted/flibco
+                    - generic [ref=e414]: Student Beans partnership
+                - listitem [ref=e415]:
+                  - link "Affiliate Program" [ref=e416] [cursor=pointer]:
+                    - /url: https://www.flibco.com/en/affiliate-program
+                    - generic [ref=e417]: Affiliate Program
+                - listitem [ref=e418]:
+                  - link "News" [ref=e419] [cursor=pointer]:
+                    - /url: /en/latest-news
+                    - generic [ref=e420]: News
+          - generic [ref=e421]:
+            - paragraph [ref=e422]: General Terms and Conditions
+            - navigation [ref=e423]:
+              - text: 
+              - list [ref=e424]:
+                - listitem [ref=e425]:
+                  - link "General Terms and Conditions" [ref=e426] [cursor=pointer]:
+                    - /url: /en/legal-pages/general-terms-and-conditions-sales-flibcocom
+                    - generic [ref=e427]: General Terms and Conditions
+                - listitem [ref=e428]:
+                  - link "General conditions newsletter" [ref=e429] [cursor=pointer]:
+                    - /url: /en/legal-pages/newsletter
+                    - generic [ref=e430]: General conditions newsletter
+                - listitem [ref=e431]:
+                  - link "Passenger rights" [ref=e432] [cursor=pointer]:
+                    - /url: /en/legal-pages/passenger-rights
+                    - generic [ref=e433]: Passenger rights
+                - listitem [ref=e434]:
+                  - link "Privacy Policy" [ref=e435] [cursor=pointer]:
+                    - /url: /en/legal-pages/privacy-notice
+                    - generic [ref=e436]: Privacy Policy
+                - listitem [ref=e437]:
+                  - link "Terms of use" [ref=e438] [cursor=pointer]:
+                    - /url: /en/legal-pages/terms-use
+                    - generic [ref=e439]: Terms of use
+                - listitem [ref=e440]:
+                  - link "Personal data - cancellation process" [ref=e441] [cursor=pointer]:
+                    - /url: /en/personal-data-cancellation-process
+                    - generic [ref=e442]: Personal data - cancellation process
+                - listitem [ref=e443]:
+                  - link "Cookie Settings" [ref=e444] [cursor=pointer]:
+                    - /url: "#editCookieSettings"
+                    - generic [ref=e445]: Cookie Settings
+      - generic [ref=e447]:
+        - generic [ref=e449]:
+          - list [ref=e451]:
+            - listitem [ref=e452]:
+              - img "Made in Luxembourg" [ref=e453]
+            - listitem [ref=e454]:
+              - img "Entreprise Socialement Responsable" [ref=e455]
+          - list [ref=e457]:
+            - listitem [ref=e458]:
+              - generic [ref=e459]: 
+            - listitem [ref=e460]:
+              - generic [ref=e461]: 
+            - listitem [ref=e462]:
+              - generic [ref=e463]: 
+        - generic [ref=e465]:
+          - generic [ref=e466]:
+            - text: ©
+            - text: Flibco.com
+          - img "Slg logo" [ref=e467]

@@ -32,6 +32,11 @@
       url = "github:noctalia-dev/umbriel";
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
+
+    eden = {
+      url = "github:Daaboulex/eden-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -115,7 +120,14 @@
 
       nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
         inherit system;
-        specialArgs = { inherit user inputs devEnvs flakeDevShells; };
+        specialArgs = {
+          inherit
+            user
+            inputs
+            devEnvs
+            flakeDevShells
+            ;
+        };
         inherit modules;
       };
     };
