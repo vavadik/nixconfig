@@ -51,5 +51,5 @@ gtk-single-instance = true
 # Dank color generation
 theme = dankcolors
 
-#run tmux on start
-command=tmux
+# Fresh tmux session per terminal; destroy it when the client exits
+command = sh -c "exec tmux new-session \\; set-option destroy-unattached on"

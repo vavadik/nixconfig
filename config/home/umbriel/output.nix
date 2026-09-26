@@ -10,9 +10,11 @@
       # niri used `variable-refresh-rate on-demand=true`, which has no exact
       # equivalent (umbriel only has disabled/always/fullscreen).
       # "fullscreen" is the closest match -- verify this is what you want.
-      #vrr = "fullscreen";
+      vrr = "fullscreen";
+      tearing = true;
       hdr = "on"; # on off auto fullscreen
       sdr_white = 303; # default: 203; SDR reference white in cd/m2 while the output is in HDR mode (80-1000).
+      direct_scanout = true;
     };
     "HDMI-A-3" = {
       mode = "2560x1440@143.855";

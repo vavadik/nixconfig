@@ -8,6 +8,7 @@
       packages = with pkgs; [
         nodejs_24
         pnpm
+        yarn
       ];
     };
 
@@ -17,6 +18,7 @@
         nodejs_24
         pnpm
         sl
+        yarn
       ];
     };
 

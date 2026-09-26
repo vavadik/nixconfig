@@ -35,7 +35,7 @@
     ./audio.nix
     ./gaming.nix
     ./docker.nix
-    ./dms.nix
+    # ./dms.nix
     ./umbriel.nix
     ./noctalia.nix
     ./dev-envs.nix

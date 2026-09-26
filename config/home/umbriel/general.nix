@@ -11,12 +11,12 @@
       gap = 5;
       # Matches niri's `default-column-width { proportion 0.5; }`.
       scrolling = {
-        default_width_fraction = 0.499;
+        default_extent_fraction = 0.5;
         center_underfull_strip = false;
       };
-      width_presets = [
+      extent_presets = [
         0.333
-        0.499
+        0.5
         0.667
       ];
     };
@@ -59,8 +59,6 @@
       border = {
         focused = "#7AA3FFFF"; # #RRGGBB or #RRGGBBAA
         unfocused = "#292933FF";
-        scratchpad_focused = "#E5C07BFF";
-        scratchpad_unfocused = "#5C4A2AFF";
         outer = "#1A1A1FFF";
       };
     };

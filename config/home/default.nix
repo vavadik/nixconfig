@@ -8,7 +8,7 @@
     ./fish.nix
     ./tmux.nix
     ./ghostty.nix
-    ./niri.nix
+    # ./niri.nix
     ./noctalia.nix
     ./umbriel
   ];

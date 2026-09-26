@@ -11,6 +11,26 @@ let
   chromiumWaylandArgs = "--disable-features=WaylandWpColorManagerV1";
 in
 {
+  # nixpkgs only has 0.8.2 so far; drop once 0.8.3 lands.
+  nixpkgs.overlays = [
+    (final: prev: {
+      xwayland-satellite = final.unstable.xwayland-satellite.overrideAttrs (finalAttrs: _: {
+        version = "0.8.3";
+        src = final.fetchFromGitHub {
+          owner = "Supreeeme";
+          repo = "xwayland-satellite";
+          tag = "v${finalAttrs.version}";
+          hash = "sha256-eFEjCCniMCKeWU0PcZNv+tDYe08SLFPjRplyPY8OFt4=";
+        };
+        cargoDeps = final.rustPlatform.fetchCargoVendor {
+          inherit (finalAttrs) src;
+          name = "${finalAttrs.pname}-${finalAttrs.version}-vendor";
+          hash = "sha256-gMGFvnbxM3hD5fmkSimaFd87GEf6BXFe/MGjoS6VNVU=";
+        };
+      });
+    })
+  ];
+
   environment.systemPackages = with pkgs; [
     nixfmt
     nodejs_24
@@ -18,9 +38,12 @@ in
     fastfetch
     nerd-fonts.jetbrains-mono
     xwayland-satellite
-    (google-chrome.override { commandLineArgs = chromiumWaylandArgs; })
-    (microsoft-edge.override { commandLineArgs = chromiumWaylandArgs; })
-    (code-cursor.override { commandLineArgs = chromiumWaylandArgs; })
+    # (google-chrome.override { commandLineArgs = chromiumWaylandArgs; })
+    # (microsoft-edge.override { commandLineArgs = chromiumWaylandArgs; })
+    # (code-cursor.override { commandLineArgs = chromiumWaylandArgs; })
+    google-chrome
+    microsoft-edge
+    code-cursor
     teams-for-linux
     slack
     telegram-desktop
@@ -47,6 +70,8 @@ in
     loupe
     unstable.protonup-qt
     dotnet-runtime_10
+    gedit
+    mission-center
   ];
 
   environment.sessionVariables = {
@@ -103,4 +128,6 @@ in
       };
     };
   };
+
+  services.flatpak.enable = true;
 }

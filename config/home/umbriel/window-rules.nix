@@ -6,6 +6,12 @@
 # becomes the runtime `blur` field.
 { ... }: {
   programs.umbriel.settings.window_rule = [
+    # Give scratchpad windows their own border colors.
+    {
+      match.is_scratchpad = true;
+      border_color_focused = "#E5C07BFF";
+      border_color_unfocused = "#5C4A2AFF";
+    }
     {
       match.app_id = "re.sonny.Junction$";
       default_floating = true;

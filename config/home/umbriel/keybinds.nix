@@ -24,8 +24,9 @@
     # Security
     "Mod+L" = "spawn:noctalia msg session lock";
     "Mod+Shift+E" = "session-quit";
-    # Ctrl+Shift+Escape (DMS task manager) dropped -- noctalia has no
-    # process-list / task-manager panel.
+    # Ctrl+Shift+Escape (DMS task manager) has no noctalia equivalent, so
+    # spawn Mission Center directly instead.
+    "Ctrl+Shift+Escape" = "spawn:missioncenter";
 
     # Audio controls
     "XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up 3"; allow_when_locked = true; };
@@ -154,17 +155,17 @@
     "Mod+BracketLeft" = "window-consume-or-expel-left";
     "Mod+BracketRight" = "window-consume-or-expel-right";
 
-    # Sizing & layout
-    "Mod+R" = "window-cycle-width";
-    "Mod+Shift+R" = "window-cycle-height";
-    "Mod+Ctrl+R" = "window-set-height:1.0";
+    # Sizing & layout (primary = strip/column axis, secondary = within-column)
+    "Mod+R" = "window-cycle-primary-extent";
+    "Mod+Shift+R" = "window-cycle-secondary-extent";
+    "Mod+Ctrl+R" = "window-set-secondary-extent:1.0";
     "Mod+C" = "column-center";
 
     # Manual sizing
-    "Mod+Minus" = "window-modify-width:-0.1";
-    "Mod+Equal" = "window-modify-width:+0.1";
-    "Mod+Shift+Minus" = "window-modify-height:-0.1";
-    "Mod+Shift+Equal" = "window-modify-height:+0.1";
+    "Mod+Minus" = "window-modify-primary-extent:-0.1";
+    "Mod+Equal" = "window-modify-primary-extent:+0.1";
+    "Mod+Shift+Minus" = "window-modify-secondary-extent:-0.1";
+    "Mod+Shift+Equal" = "window-modify-secondary-extent:+0.1";
 
     # Screenshots -- niri's built-in screenshot/screenshot-screen actions
     # have no umbriel equivalent, but noctalia itself ships native
